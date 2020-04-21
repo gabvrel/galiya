@@ -13,7 +13,7 @@ export default Loader;
 
 const styles = StyleSheet.create({
     loader:{
-        width: "90%",
-        height: 250
+        width: "97.5%",
+        height: 325,
     }
 })
