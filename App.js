@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Intro from "./components/Intro";
 import Main from "./components/Main";
+import Language from "./components/Language";
 
 
 const Stack = createStackNavigator();
@@ -21,6 +22,7 @@ const Router = () => (
           }}>
             <Stack.Screen name="Intro" component={Intro}/>
             <Stack.Screen name="Main" component={Main}/>
+            <Stack.Screen name="Language" component={Language} />
           </Stack.Navigator>
         }
   </NavigationContainer>
