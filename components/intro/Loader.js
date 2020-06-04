@@ -1,10 +1,10 @@
-import React from "react";
-import { Text, Image, StyleSheet } from "react-native";
+import React, {useEffect} from "react";
+import { Image, StyleSheet } from "react-native";
 
 
 const Loader = () => {
     return(
-        <Image source={require("../assets/loader.gif")}
+        <Image source={require("../../assets/loader.gif")}
         style={styles.loader}/>
     )
 }
